@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "reeyregular";
+  src: url("/fonts/Reey/webfontkit-20230322-062916/reey-regular-webfont.woff")
+      format("woff2"),
+    url("reey-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.pizza-image-wall {
+  background-image: url("./src/pizza/pizzaBackground.png");
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  background-repeat: no-repeat;
+  height: 1000px;
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+
+.pizza_whole {
+  position: absolute;
+  right: 3rem;
+  bottom: -10rem;
+  width: 60rem;
+  transform: rotate(120deg);
+}
+
+.pizza_basil {
+  position: absolute;
+  top: -10rem;
+  left: -4rem;
+}
+
+.pizza_piece {
+  position: absolute;
+  width: 30rem;
+  transform: rotate(120deg);
+  bottom: -7rem;
+  right: 45rem;
+}
+
+.pizza_image_headline {
+  font-size: 58px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.pizza_image_text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.pizza_image_line {
+  width: 11%;
+  background-color: white;
+  border-width: 0;
+  height: 9px;
+}
+
+.pizza_description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.pizza_Reey {
+  font-family: "reeyregular";
+}
+
+.pizza_options_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1200px;
+  margin: auto;
+  height: 500px;
+  align-items: center;
+}
+
+.pizza_options_item {
+  width: 350px;
+}
+
+.pizza_options_item h4 {
+  text-align: center;
+}
+
+.pizza_description_headline {
+  font-size: 42px;
+}
+
+.pizza_description {
+  font-size: 19px;
+}
+
+.pizza_quote_container {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.pizza_quote {
+  font-family: open;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+
+.pizza_quote_author {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
