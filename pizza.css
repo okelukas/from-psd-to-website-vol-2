@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "reeyregular";
+  src: url("/fonts/Reey/webfontkit-20230322-062916/reey-regular-webfont.woff")
+      format("woff2"),
+    url("reey-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pizza_image_text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pizza_description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.pizza_Reey {
+  font-family: "reeyregular";
+}
+
+.pizza_quote {
+  font-family: open;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.pizza_quote_author {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
