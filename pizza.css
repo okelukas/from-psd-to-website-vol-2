@@ -21,7 +21,6 @@ section {
   background-image: url("./src/pizza/pizzaBackground.png");
   background-size: cover;
   background-position: center;
-
   color: white;
   background-repeat: no-repeat;
   height: 1000px;
@@ -55,14 +54,14 @@ section {
 .pizza_image_headline {
   font-size: 58px;
   text-align: center;
-  margin-bottom: 0;
+  border-bottom: 0;
 }
 
 .pizza_image_text {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 25px;
-  margin-top: 0;
+  margin-top: -1em;
 }
 
 .pizza_image_line {
@@ -70,6 +69,8 @@ section {
   background-color: white;
   border-width: 0;
   height: 9px;
+  margin: auto;
+  margin-top: 3em;
 }
 
 .pizza_description {
@@ -121,6 +122,7 @@ section {
   font-weight: 500;
   font-size: 25px;
   text-align: center;
+  margin-top: 0;
 }
 
 .pizza_quote_author {
@@ -128,4 +130,5 @@ section {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+  padding-top: 2em;
 }
