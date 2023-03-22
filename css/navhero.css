@@ -1,0 +1,125 @@
+﻿@import url('fonts.css');
+
+:root {
+  --colorLight: white; 
+	--colorDark: black; 
+}
+
+html {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0; 
+	padding:0; 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	font-family: opensans;
+	font-size: 100%; 
+}
+
+header {
+	max-width: 1440px;
+	width: 100%; 
+	color: var(--colorLight); 
+	padding: 1rem;
+	background-image: url('../img/header_background.png');
+	background-size: cover; 
+}
+
+nav {
+	display: flex; 
+	flex-direction: column; 
+	align-items: flex-end; 
+}
+
+	nav > ul {
+		display: inline;
+		text-transform: uppercase; 
+	}
+
+		nav > ul > li {
+			display: inline; 
+			margin: 0rem 2rem;
+			font-size: 1.1rem; 
+			font-weight: 500;
+			letter-spacing: 3px;  
+			text-transform: uppercase; 
+		}
+
+		nav > ul > li:last-child img {
+			height: 1rem; 
+		}
+
+	nav input[type="text"] {
+		display: inline; 
+		width: 10rem; 
+		padding: 1rem 0rem; 
+		border-radius: 1rem; 
+	}
+
+#hero {
+	position: relative;
+	padding-left: 3rem; 
+	height: 60rem; 
+}
+
+	#hero h1 {
+		font-family: reey;
+		font-weight: 400;
+		font-size: 5rem;
+		margin-top: 4rem;
+	}
+
+	#hero h2 {
+		font-style: italic;
+		text-transform: uppercase;
+		margin-bottom: 3rem;
+		margin-top: 8rem; 
+		letter-spacing: 0.3rem; 
+	}
+
+	#hero button {
+		padding: 0.5rem 2rem; 
+		font-size: 1.6rem;
+		font-weight: 700; 
+		border-radius: 1.9rem; 
+		text-transform: uppercase;
+		color: var(--colorDark);
+		margin-top: 4rem; 
+		margin-bottom: 2rem; 
+	}
+
+	#hero p {
+		width: 30rem;
+		font-size: 1.2rem; 
+	}
+
+	#hero img[src$="logo.png"] {
+		width: 10rem;
+	}
+
+	#hero img[src$="pasta.png"] {
+		width: 44rem;
+		position: absolute;
+		right: 4rem;
+		top: 5rem; 
+	}
+
+	#hero img[src$="basilikum.png"] {
+		width: 44rem;
+		position: absolute;
+		right: -5rem;
+		bottom: -10rem;
+	}
+
+	#hero img[src$="sauce.png"] {
+		width: 19rem;
+		position: absolute;
+		right: 37rem;
+		top: 37rem;
+	}
+

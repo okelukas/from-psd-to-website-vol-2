@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pizza.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Italian Food - Pizza Pizza</title>
+  <link href="./css/navhero.css" rel="stylesheet" />
+   <link rel="stylesheet" href="pizza.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,11 +16,62 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Our Story</li>
+        <li>Contact us</li>
+        <li>
+          <input type="text" />
+          <img src="./img/header_lupe.svg" />
+        </li>
+      </ul>
+    </nav>
+    <div id="hero">
+      <img src="img/logo.png" />
+      <h1>Italian Food</h1>
+      <h2>Loremipsum Dolor</h2>
+      <button>read more</button>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing, sed do iusmod tempor incididunt ut labore et dolore magna. </p>
+      <img src="img/header_pasta.png" />
+      <img src="img/header_sauce.png" />
+      <img src="img/header_basilikum.png" />
+    </div>
+  </header>
+    <section id="promo">
 
-    <title>Document</title>
-  </head>
-  <body>
-    <section>
+    <div id="pasta4Shell" class="firstPart">
+      <div class="wrapper">
+        <img id="picturePasta4" src="./src/promo/pasta4.png" alt="">
+      </div>
+      <div class="textWrapper">
+        <h3 class="discount">Discount up to <br> 50% All Excursions</h3>
+
+        <p id="pasta4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non vitae, cupiditate alias,
+          debitis explicabo porro magni est rem molestiae distinctio assumenda laudantium hic? Est.</p>
+        <button id="readMore1">READ MORE</button>
+      </div>
+    </div>
+
+
+
+    <div id="pasta5Shell" class="secondPart">
+      <div class="textWrapper2">
+        <h3 class="discount">January's Promo: <br> Buy 1 Get 1 Free!</h3>
+        <p id="pasta5">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut <br> laoreet dolore magna aliquam erat.</p>
+        <button id="readMore1">READ MORE</button>
+      </div>
+      <div class="wrapper2">
+        <img id="picturePasta5" src="./src/promo/pasta5.png" alt="">
+      </div>
+    </div>
+  </section>
+  
+      <section>
       <div class="pizza-image-wall">
         <img src="./src/pizza/wholePizza.png" class="pizza_whole" />
         <img src="./src/pizza/basilikum2.png" class="pizza_basil" />
@@ -68,5 +120,5 @@
         <p class="pizza_quote_author">Lorem Ipsum</p>
       </div>
     </section>
-  </body>
+</body>
 </html>
